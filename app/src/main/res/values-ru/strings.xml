@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Бухомер</string>
+    <string name="sLogin">Имя пользователя</string>
+    <string name="sSingIn">Регистрация</string>
+    <string name="title_activity_sing_in">Регистрация</string>
+    <string name="sName">Имя</string>
+    <string name="sPassword">Пароль</string>
+    <string name="sRepPassword">Повторите пароль</string>
+    <string name="sUseFingerPrint">Использовать отпечаток пальца </string>
+    <string name="sSignInEnd">Закончить регистрацию</string>
+    <string name="title_activity_login">Вход</string>
+    <string name="sWeight">Вес</string>
+    <string name="title_activity_alcohol_list">Список алкоголя</string>
+    <string name="sDrinkName">Название напитка</string>
+    <string name="sDrinkCount">Количество порций</string>
+    <string name="sUserState">Кондиция пользователя</string>
+    <string name="title_activity_drink_info">О напитке</string>
+    <string name="ml">мл</string>
+    <string name="sSex">Пол</string>
+    <string name="sMale">Мужчина</string>
+    <string name="sFeMale">Женщина</string>
+    <string name="sEmptyField">Заполните все поля</string>
+    <string name="sErrorRepPassword">Пароли не совпадают</string>
+    <string name="sSameUser">Пользовател уже существует</string>
+    <string name="sUserAdded">Пользователь добавлен</string>
+    <string name="sUserDeleted">Пользователь удален</string>
+    <string name="sSingInError">Ошибка регистрации</string>
+    <string name="sLoginError">Неправильные имя пользователя или пароль</string>
+    <string name="sDataError">Ошибка данных</string>
+    <string name="sAclIng">Спиртные ингридиенты</string>
+    <string name="sOthIng">Другие ингридиенты</string>
+    <string name="sOk">Ok</string>
+    <string name="sShare">Поделиться</string>
+    <string name="sRememberMe">Запомнить</string>
+    <string name="sLogOut">Выйти</string>
+    <string name="sDeleteUser">Удалить пользователя</string>
+    <string name="sAbout">О программе</string>
+    <string name="sAreYouSure">Вы уверены?</string>
+    <string name="sYes">Да</string>
+    <string name="sNo">Нет</string>
+    <string name="sShowUserInfo">О пользователе</string>
+    <string name="sConfirm">Подтвердить</string>
+    <string name="sCancel">Отмена</string>
+    <string name="sConfirmPasword">Подтвердить пароль</string>
+    <string name="sWrongPasword">Неправильный пароль</string>
+    <string name="sChangeWeight">Изменить вес</string>
+    <string name="sMinusWeight">Вес не может быть отрицательный или 0</string>
+    <string name="sMinPortion">Минимальное количество порций  - 0</string>
+    <string name="sNoPermissionFP">Нет разрешения использовать отпечаток пальца</string>
+    <string name="sNoFPRegistered">Нет сохраненых отпечатков пальцув</string>
+    <string name="sLockScreenDisabled">Экран блокировки отключен</string>
+    <string name="sFPSuc">Використано відбиток пальця</string>
+    <string name="sFPFail">Неправильний відбиток пальця</string>
+
+    <string-array name="AlcoholPercent">
+        <item>"0.067"</item>
+        <item>"0.4"</item>
+        <item>"0.11"</item>
+        <item>"0.43"</item>
+        <item>"0.18"</item>
+        <item>"0.12"</item>
+        <item>"0.375"</item>
+        <item>"0.045"</item>
+        <item>"0.4"</item>
+        <item>"0.16"</item>
+        <item>"0.7"</item>
+        <item>"0.25"</item>
+        <item>"0.21"</item>
+        <item>"0.38"</item>
+        <item>"0.38"</item>
+        <item>"0.12"</item>
+        <item>"0.45"</item>
+        <item>"0.4"</item>
+        <item>"0.22"</item>
+        <item>"0.95"</item>
+    </string-array>
+
+    <string-array name="IngredientName">
+        <item>"Имбирный эль"</item>
+        <item>"Водка"</item>
+        <item>"Имбирное пиво"</item>
+        <item>"Виски"</item>
+        <item>"Портвейн"</item>
+        <item>"Вино"</item>
+        <item>"Джин"</item>
+        <item>"Пиво"</item>
+        <item>"Коньяк"</item>
+        <item>"Вермут"</item>
+        <item>"Абсент"</item>
+        <item>"Ликер Трипл сек"</item>
+        <item>"Ликер Малибу"</item>
+        <item>"Ликер Бехеровка"</item>
+        <item>"Ром"</item>
+        <item>"Шампанское"</item>
+        <item>"Бренди"</item>
+        <item>"Ликер Cointreau"</item>
+        <item>"Кофейный ликер"</item>
+        <item>"Спирт"</item>
+    </string-array>
+
+    <string-array name="DrinksName">
+        <item>"Праздничный пунш"</item>
+        <item>"Пуншь Эплджек"</item>
+        <item>"Коктейль Шепот мороза"</item>
+        <item>"Коктейль Юнион Джек"</item>
+        <item>"Дьявольский коктейль"</item>
+        <item>"Коктейль Саратога"</item>
+        <item>"Коктейль Bacardi Energy"</item>
+        <item>"Коктейль Камикадзе"</item>
+        <item>"Коктейль Бакарди Мохито"</item>
+        <item>"Коктейль Бакарди Куба Либре"</item>
+        <item>"Коктейль Ягодный Вильям"</item>
+        <item>"Коктейль Арбузная корка"</item>
+        <item>"Коктейль Грин Дей"</item>
+        <item>"Коктейль Очарование"</item>
+        <item>"Коктейль Вивальди"</item>
+        <item>"Коктейль Ritz"</item>
+        <item>"Коктейль Альфонсо"</item>
+        <item>"Коктейль Мохито"</item>
+        <item>"Коктейль 86"</item>
+        <item>"Коктейль Отвёртка"</item>
+        <item>"Коктейль Белый русский"</item>
+        <item>"Коктейль Атомная отвёртка"</item>
+        <item>"Коктейль Красный петух"</item>
+        <item>"Коктейль Шифровка"</item>
+        <item>"Коктейль Обезьяна"</item>
+        <item>"Коктейль Дядя Ваня"</item>
+        <item>"Коктейль Ёрш"</item>
+        <item>"Коктейль Бомбочка"</item>
+        <item>"Имбирный эль"</item>
+        <item>"Водка"</item>
+        <item>"Имбирное пиво"</item>
+        <item>"Виски"</item>
+        <item>"Портвейн"</item>
+        <item>"Вино"</item>
+        <item>"Джин"</item>
+        <item>"Пиво"</item>
+        <item>"Коньяк"</item>
+        <item>"Вермут"</item>
+        <item>"Абсент"</item>
+        <item>"Ром"</item>
+        <item>"Шампанское"</item>
+        <item>"Бренди"</item>
+    </string-array>
+
+    <string-array name="DrinksOtherIngredients">
+        <item>"\nЧашка клюквенного сока;\nCтакан ананасового сока;\nСтакан лимонада;"</item>
+        <item>"\nЯблочный сок (0,5 л.);\nАпельсиновый сок (60 мл.);"</item>
+        <item>"\nСахар;\nЛимон (1 ломтик.);\nАпельсин(1 ломтик.);"</item>
+        <item>"\nГранатовый сироп;"</item>
+        <item>"\nМолотый кофе;\nЧерный молотый перец;\nЛимон;\nСоль;"</item>
+        <item>"\nСахарный сироп(5 мл.);\nАнгостура (3мл.);\nБальзам Ангостура (Angostura Bitters) ( 3-5 кап.);"</item>
+        <item>"\nСироп Grenadine (20 мл.);\nЭнергетический напиток (100 мл.);\nСок лайма (10 мл.);"</item>
+        <item>"\nСок лимона (45 мл.);"</item>
+        <item>"\nПостмикс (спрайт, тоник, минеральная вода на выбор)(110мл.);\nСироп сахарный (10мл.);\nМята (7мл.);\nСок лайма (15мл.);\nЛайм (11мл.);"</item>
+        <item>"\nКока-кола (120мл.);\nЛайм (33 мл.);"</item>
+        <item>"\nСок вишневый (60мл.);\nНапиток клюквенный (60 мл.);\nСироп клубничный (5мл.);\nСок лайма (5мл.);\nЯгодная смесь(10мл.);\nЧипс апельсиновый (5мл.);"</item>
+        <item>"\nСироп арбуз (10мл.);\nCок ананасовый (40 мл.);\nСок грейпфрутовый (40мл.);\nВишня коктейльная (6мл.);"</item>
+        <item>"\nСок яблочный (120мл.);\nБадьян (6 мл.);\nЧипс яблочный(4мл.);"</item>
+        <item>"\nСироп Grenadine (5 мл.) \nСок апельсиновый (20 мл.)"</item>
+        <item>"\nКолотый лед (ст. ложка);\n Сахарный сироп (20 мл.);\nСпелая сладкая груша (Половинка)"</item>
+        <item>"\nАпельсиновый сок (15 мл.); \n Колотый лед."</item>
+        <item>"\nБальзам Angostura Bitters (3-5 капель); \nВиноградный сок (60 мл.)."</item>
+        <item>"\n1/2 лайма, разрезать на 4 дольки;\n10 листиков мяты; \n2 ст.л. сахара, или по вкусу; \n5 или 6 кубиков льда;\n120 мл газированной воды;"</item>
+        <item>"\nЛимонная газировка(125 мл.)"</item>
+        <item>"\nАпельсиновый сок без мякоти(180 мл.);"</item>
+        <item>"\nлёд; \nмолоко(100 мл.)"</item>
+        <item>"\nАпельсиновый сок(60 мл.);\n лёд;"</item>
+        <item>"\nКлюквенный сок(120 мл.); \nАпельсиновый сок(15 мл.);"</item>
+        <item>"\nКлюквенный сок(45 мл); \n1 ломтик лайма;"</item>
+        <item>"\n1 стакан льда; \nВанильная кола(120 мл.);"</item>
+        <item>"\nГренадин(20 мл.);\n Лимонный сок(20 мл.);"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+        <item>"\nНичего"</item>
+    </string-array>
+
+    <string-array name="UserCondition">
+        <item>"Нормальное состояние"</item>
+        <item>"Легкое влияние алкоголя"</item>
+        <item>"Легкое опьянение"</item>
+        <item>"Среднее опьянение"</item>
+        <item>"Сильное алкогольное опьянение"</item>
+        <item>"Алкогольное отравление, критическое состояние"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iUserInfo"
+        android:title="@string/sShowUserInfo" />
+    <item
+        android:id="@+id/iChangeWeight"
+        android:title="@string/sChangeWeight" />
+    <item
+        android:id="@+id/iLogOut"
+        android:title="@string/sLogOut" />
+    <item
+        android:id="@+id/iDeleteUser"
+        android:title="@string/sDeleteUser" />
+    <item
+        android:id="@+id/iAbout"
+        android:title="@string/sAbout" />
+</menu>
