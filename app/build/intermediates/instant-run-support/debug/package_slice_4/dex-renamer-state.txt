@@ -1,0 +1,4 @@
+#Mon Nov 06 20:31:14 EET 2017
+base.0=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\194
+renamed.0=classes.dex
+file.0=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\194\\classes.dex

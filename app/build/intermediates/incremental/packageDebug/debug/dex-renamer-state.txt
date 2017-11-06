@@ -1,0 +1,19 @@
+#Mon Nov 06 20:31:16 EET 2017
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\203
+base.4=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\202
+base.3=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\201
+base.2=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\206
+base.1=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\205
+base.0=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\204
+file.5=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\203\\classes.dex
+file.4=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\202\\classes.dex
+file.3=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\201\\classes.dex
+file.2=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\206\\classes.dex
+file.1=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\205\\classes.dex
+file.0=C\:\\STUDY\\DOnotREMOVE\\DrinkMeter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\204\\classes.dex
