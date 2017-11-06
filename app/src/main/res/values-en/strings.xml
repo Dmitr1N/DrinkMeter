@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">DrinkMeter</string>
+    <string name="sLogin">Login</string>
+    <string name="sSingIn">Sing In</string>
+    <string name="title_activity_sing_in">Sign In</string>
+    <string name="sName">Name</string>
+    <string name="sPassword">Password</string>
+    <string name="sRepPassword">Repeat Password</string>
+    <string name="sUseFingerPrint">Use FingerPrint</string>
+    <string name="sSignInEnd">End SignIn</string>
+    <string name="title_activity_login">Login</string>
+    <string name="sWeight">Weight</string>
+    <string name="title_activity_alcohol_list">Alcohol List</string>
+    <string name="sDrinkName">Drink Name</string>
+    <string name="sDrinkCount">Drink Count</string>
+    <string name="sUserState">User State</string>
+    <string name="title_activity_drink_info">About Drink</string>
+    <string name="ml">ml</string>
+    <string name="sSex">Sex</string>
+    <string name="sMale">Male</string>
+    <string name="sFeMale">Female</string>
+    <string name="sEmptyField">Fill all fields</string>
+    <string name="sErrorRepPassword">Passwords are different</string>
+    <string name="sSameUser">User already exists</string>
+    <string name="sUserAdded">User added</string>
+    <string name="sUserDeleted">User deleted</string>
+    <string name="sSingInError">SingIn error</string>
+    <string name="sLoginError">Wrong Login or Password</string>
+    <string name="sDataError">Data Error</string>
+    <string name="sAclIng">Alcohol ingredients</string>
+    <string name="sOthIng">Other ingredients</string>
+    <string name="sOk">Ok</string>
+    <string name="sShare">Share</string>
+    <string name="sRememberMe">Remember Me</string>
+    <string name="sLogOut">Log Out</string>
+    <string name="sDeleteUser">Delete user</string>
+    <string name="sAbout">About</string>
+    <string name="sAreYouSure">Are you sure?</string>
+    <string name="sYes">Yes</string>
+    <string name="sNo">No</string>
+    <string name="sShowUserInfo">User info</string>
+    <string name="sConfirm">Confirm</string>
+    <string name="sCancel">Cancel</string>
+    <string name="sConfirmPasword">Confirm Password</string>
+    <string name="sWrongPasword">Wrong Password</string>
+    <string name="sChangeWeight">Change Weight</string>
+    <string name="sMinusWeight">Weight cannot be minus or 0</string>
+    <string name="sMinPortion">Minimum count - 0</string>
+    <string name="sNoPermissionFP">No permission to use FingerPrint</string>
+    <string name="sNoFPRegistered">No registered FingerPrints</string>
+    <string name="sLockScreenDisabled">LockScreen Disabled</string>
+    <string name="sFPSuc">Used FingerPrint</string>
+    <string name="sFPFail">Wrong FingerPrint</string>
+
+    <string-array name="AlcoholPercent">
+        <item>"0.067"</item>
+        <item>"0.4"</item>
+        <item>"0.11"</item>
+        <item>"0.43"</item>
+        <item>"0.18"</item>
+        <item>"0.12"</item>
+        <item>"0.375"</item>
+        <item>"0.045"</item>
+        <item>"0.4"</item>
+        <item>"0.16"</item>
+        <item>"0.7"</item>
+        <item>"0.25"</item>
+        <item>"0.21"</item>
+        <item>"0.38"</item>
+        <item>"0.38"</item>
+        <item>"0.12"</item>
+        <item>"0.45"</item>
+        <item>"0.4"</item>
+        <item>"0.22"</item>
+        <item>"0.95"</item>
+    </string-array>
+
+    <string-array name="IngredientName">
+        <item>"Ginger ale"</item>
+        <item>"Vodka"</item>
+        <item>"Ginger beer"</item>
+        <item>"Whiskey"</item>
+        <item>"Port wine"</item>
+        <item>"Vine"</item>
+        <item>"Gin"</item>
+        <item>"Beer"</item>
+        <item>"Cognac"</item>
+        <item>"Vermouth"</item>
+        <item>"Absinthe"</item>
+        <item>"Liqueur Triple sec"</item>
+        <item>"Liqueur Malibu"</item>
+        <item>"Liqueur Becherovka"</item>
+        <item>"Rum"</item>
+        <item>"Champagne"</item>
+        <item>"Brandy"</item>
+        <item>"Liqueur Cointreau"</item>
+        <item>"Coffee liqueur"</item>
+        <item>"Alcohol"</item>
+    </string-array>
+
+    <string-array name="DrinksName">
+        <item>"Festive punch"</item>
+        <item>"Applejack Punch"</item>
+        <item>"Whisper of Frost Cocktail"</item>
+        <item>"Union Jack Cocktail"</item>
+        <item>"Devilish Cocktail"</item>
+        <item>"Saratoga Cocktail"</item>
+        <item>"Bacardi Energy Cocktail"</item>
+        <item>"Kamikaze Cocktail"</item>
+        <item>"Bacardi Mojito Cocktail"</item>
+        <item>"Bacardi Cuba Libre Cocktail"</item>
+        <item>"Berry William Cocktail"</item>
+        <item>"Watermelon Crush Cocktail"</item>
+        <item>"Green Day Cocktail"</item>
+        <item>"Lucky Charm Cocktail"</item>
+        <item>"Vivaldi Cocktail"</item>
+        <item>"Ritz Cocktail"</item>
+        <item>"Alfonso Cocktail"</item>
+        <item>"Mojito Cocktail"</item>
+        <item>"86 Cocktail"</item>
+        <item>"Screwdriver Cocktail"</item>
+        <item>"White Russian Cocktail"</item>
+        <item>"Atomic Screwdriver Cocktail"</item>
+        <item>"Red Rooster Cocktail"</item>
+        <item>"Capecoder Cocktail"</item>
+        <item>"Coke Monkey Cocktail"</item>
+        <item>"Uncle Vanya Cocktail"</item>
+        <item>"Beer Cocktail"</item>
+        <item>"Bomb Cocktail"</item>
+        <item>"Ginger ale"</item>
+        <item>"Vodka"</item>
+        <item>"Ginger beer"</item>
+        <item>"Whiskey"</item>
+        <item>"Port wine"</item>
+        <item>"Vine"</item>
+        <item>"Gin"</item>
+        <item>"Beer"</item>
+        <item>"Cognac"</item>
+        <item>"Vermouth"</item>
+        <item>"Absinthe"</item>
+        <item>"Rum"</item>
+        <item>"Champagne"</item>
+        <item>"Brandy"</item>
+    </string-array>
+
+    <string-array name="DrinksOtherIngredients">
+        <item>"\nA cup of cranberry juice;\nA cup of pineapple juice;\nA cup of lemonade;"</item>
+        <item>"\nApple juice (60 ml);\nOrange juice(60 ml);"</item>
+        <item>"\nSugar;\n1 slice of lemon;\n1 slice of orange;"</item>
+        <item>"\nGarnet syrup;"</item>
+        <item>"\nGround coffee;\nGround black pepper;\nLemon;\nSalt;"</item>
+        <item>"\nSugar syrup(5 ml);\nAngostura (5 ml);\nBalsam Angostura (Angostura Bitters) ( 3-5 drops);"</item>
+        <item>"\nGrenadine syrup (20 ml);\nEnergetic dring (100 ml);\nLime juice (10 ml);"</item>
+        <item>"\nLemon juice (45 ml);"</item>
+        <item>"\nPostmix (sprite, tonic, or mineral water)(110ml);\nSugar syrup(10ml);\nMint (7ml);\nLime juice (15ml);\nLime (11ml);"</item>
+        <item>"\nCoca-cola (120ml);\nLime (33 ml);"</item>
+        <item>"\nBerry juice (60ml);\nCranberry dring (60 ml);\nStrawberry syrup (5ml);\nLime juice (5ml);\nBerry mix(10ml);\nOrange chips (5g);"</item>
+        <item>"\nWatermelon syrup (10ml);\nPineapple juice (40 ml);\nGrapefruit juice (40ml);\n Cocktail cherry (6ml);"</item>
+        <item>"\nApple juice (120ml);\nBadian essence (6 ml);\nApple chips(4g);"</item>
+        <item>"\nGrenadine syrup (5 ml) \nOrange juice (20 ml)"</item>
+        <item>"\nOne tablespoon of crushed ice;\n Sugar syrup (20 ml);\nA half of a pear"</item>
+        <item>"\nOrange juice (15 ml); \n Crushed ice."</item>
+        <item>"\nAngostura Bitters balsam (3-5 drops); \nGrape juice(60 ml)."</item>
+        <item>"\nHalf of a lime cut into 4 slices ;\n5 leafs of mint; \n2 tablespoons of sugar; \n5 or 6 ice cubes;\n120 ml of sparkling water;"</item>
+        <item>"\nLemonade(125 ml)"</item>
+        <item>"\nOrange juice(180 ml);"</item>
+        <item>"\nIce; \nMilk(100 ml)"</item>
+        <item>"\nOrange juice(60 ml);\n Ice;"</item>
+        <item>"\nCranberry juice(120 ml); \nOrange juice(15 ml);"</item>
+        <item>"\nCranberry juice(45 ml); \n1 slice of lime;"</item>
+        <item>"\n1 cup of ice; \nVanilla cola(120 ml);"</item>
+        <item>"\nGrenadine(20 ml);\n Lemon juice(20 ml);"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+        <item>"\nnothing"</item>
+    </string-array>
+
+    <string-array name="UserCondition">
+        <item>"Normal"</item>
+        <item>"Alcohol has little effect"</item>
+        <item>"Mild intoxication"</item>
+        <item>"Intermediate degree of intoxication"</item>
+        <item>"A state of intense intoxication"</item>
+        <item>"Alcohol poisoning, critical condition"</item>
+    </string-array>
+
+</resources>

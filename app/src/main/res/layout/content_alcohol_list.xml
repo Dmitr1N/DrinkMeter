@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ua.jaraxxus.drinkmeter.AlcoholListActivity"
+    tools:showIn="@layout/activity_alcohol_list">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/lDrinkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="15"
+            android:text="@string/sDrinkName"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/lDrinkCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:scrollHorizontally="false"
+            android:text="@string/sDrinkCount"
+            android:textAlignment="center" />
+
+
+        <ScrollView
+            android:id="@+id/svDrinkList"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ZeroDP"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_row="1">
+
+            <LinearLayout
+                android:id="@+id/llDrinkList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/bUserState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="2"
+            android:text="@string/sUserState" />
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
